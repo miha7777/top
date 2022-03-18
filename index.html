@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/null.css">
+    <!-- CSS only -->
+</head>
+<body>
+    <div class="wraper">
+    <header class="header" id="head"> 
+        <div class="header__backround">
+            <div class="header__block">
+                <div class="header__flex">
+                    <button class="header-title__block">
+                        <div class="header-title__block-circle"></div>
+                        M.I.C
+                        <div class="header-title__block-menu">
+                            <div class="header-title__block-menu__item">M - Misha</div>
+                            <div class="header-title__block-menu__item">I - I.T</div>
+                            <div class="header-title__block-menu__item">C - C.S</div>                            
+                        </div>
+                    </button>
+                    <ul class="header-menu__block">
+                        <li>
+                            <a href="#s1" data-text="About"  class="header-menu__item">About</a>
+                        </li>
+                        <li>
+                            <a href="#s2" data-text="Experience" class="header-menu__item">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#s3" data-text="Services" class="header-menu__item">Services</a>
+                        </li>
+                        <li>
+                            <a href="#s4" data-text="Portfolio" class="header-menu__item">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#s5" data-text="Contact" class="header-menu__item">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="header-img__block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <div class="header-img__block-animate" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="fa-solid fa-house" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="header-menu__block header-menu__block-navbar header-menu__block-navbar2">
+                <li>
+                    <a href="#" data-text="Home" class="header-menu__item header-menu__item-navbar header-menu__item-navbar2">Home</a>
+                </li>
+            </ul>    
+            <ul class="header-menu__block header-menu__block-navbar">
+                    <li>
+                        <a href="#" data-text="Home" class="header-menu__item header-menu__item-navbar header-menu__item-navbar2">Home</a>
+                    </li>    
+                <li>
+                    <a href="#s1" data-text="About" class="header-menu__item header-menu__item-navbar" >About</a>
+                </li>
+                <li>
+                    <a href="#s2" data-text="Experience" class="header-menu__item header-menu__item-navbar">Experience</a>
+                </li>
+                <li>
+                    <a href="#s3" data-text="Services" class="header-menu__item header-menu__item-navbar">Services</a>
+                </li>
+                <li>
+                    <a href="#s4" data-text="Portfolio" class="header-menu__item header-menu__item-navbar">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#s5" data-text="Contact" class="header-menu__item header-menu__item-navbar">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__block">
+            <div class="main__flex">
+                <div class="main-text__item">
+                    <div class="main-text__item-flex">
+                        <div class="main-text__item__title">Hello, I’m</div>
+                        <a data-text="Michael" class="main-text__item__name">Michael</a>
+                        <div class="main-text__item__text">Ui/Ux Designer</div>
+                    </div>
+                </div>
+                <div class="main-button__item">
+                    <div class="main-button__item-flex">
+                        <button class="about__info-text-button about__info-text-button__me">
+                            Download
+                            <div class="about__info-text-button__an about__info-text-button__an__me"></div>
+                        </button>
+                        <a href="#s1" class="about__info-text-button">
+                            About
+                            <div class="about__info-text-button__an about__info-text-button__an__me1"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-ImgGroup__item">
+                    <div class="main-ImgGroup__item-backround">
+                        <div class="main-ImgGroup__item-img"></div>
+                    </div>
+                    <div class="about__img__back">
+                        <div class="main-text__item-flex">
+                            <a class="main-text__item__name main-text__item__name2" data-text="Hello">Hello</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__post"  id="s1"></div>
+            </div>
+        </div>
+    </main>
+    <main class="about__me">
+        <div class="about__block">
+            <div class="about__flex">
+                <div class="about__title">
+                    <div class="about__title-text">About me</div>
+                    <div class="about__title-subtext">My intro</div>
+                </div>
+                <div class="about__info">
+                    <div class="about__info-flex">
+                        <div class="about__info-img main-ImgGroup__item">
+                            <div class="about__info-img-grad main-ImgGroup__item-backround">
+                                <div class="about__info-img__png"></div>
+                            </div>
+                            <div class="about__img__back about__img__back2">
+                                <div class="main-text__item-flex">
+                                    <a class="main-text__item__name main-text__item__name2" data-text="Holla">Holla</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__info-text">
+                            <div class="about__info-text-text">
+                                Web developer, with extensive knowledge and years of experience, working in web technologies and Web design, delivering quality work
+                                <div class="about__info-text-text__an"></div>
+                            </div>
+                            <div class="about__info-text-card">
+                                <button class="info-text-card__contr">
+                                    <div class="info-text-card__item front">
+                                        <i class="fa-solid fa-laptop"></i>
+                                        <div class="text-card__item-text">Started</div>
+                                        <div class="text-card__item-pr">Projects</div>
+                                    </div>
+                                    <div class="info-text-card__item back">
+                                        <i class="fa-solid fa-laptop"></i>
+                                    </div>
+                                </button>
+                                <button class="info-text-card__contr">
+                                    <div class="info-text-card__item front">
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                        <div class="text-card__item-text">Completed</div>
+                                        <div class="text-card__item-pr">Projects</div>
+                                    </div>
+                                    <div class="info-text-card__item back">
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                    </div>
+                                </button>
+                                <button class="info-text-card__contr">
+                                    <div class="info-text-card__item front">
+                                        <i class="fa-solid fa-flag-checkered"></i>
+                                        <div class="text-card__item-text">finished</div>
+                                        <div class="text-card__item-pr">Projects</div>
+                                    </div>
+                                    <div class="info-text-card__item back">
+                                        <i class="fa-solid fa-flag-checkered"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <a href="#s5" id="s2"  class="about__info-text-button">
+                                Contact Me
+                                <div class="about__info-text-button__an about__info-text-button__an__me1"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="main__experiense">
+        <div class="experiense__block">
+            <div class="experiense__flex">
+                <div class="experiense__item-block__text">
+                    <div class="item-block__text-title">My Experiense</div>
+                    <div class="item-block__text-subtitle">My Abilities</div>
+                </div>
+                <div class="experiense__item-block__progres">
+                    <div class="experiense__item-block__progres-flex">
+                        <button class="item-block__progres__block" data-aos="fade-right">
+                            <div class="item-block__progres__block-flex">
+                                <div class="item-block__progres__block__name">
+                                    <div class="item-block__progres__block__name-title">Frontend</div>
+                                    <div class="item-block__progres__block__name-subtitle">More than 6 mountрs</div>
+                                </div>
+                                <div class="item-block__progres__block__HTML">
+                                    <div class="item-block__progres__block__HTML__flex">
+                                        <div class="item-block__progres__block__HTML-lang">HTML</div>
+                                        <div class="item-block__progres__block__HTML-proc">60%</div>
+                                    </div>
+                                    <div class="item-block__progres__block__HTML__line">
+                                        <div class="item-block__progres__block__HTML__subline"></div>
+                                    </div>
+                                </div>
+                                <div class="item-block__progres__block__HTML">
+                                    <div class="item-block__progres__block__HTML__flex">
+                                        <div class="item-block__progres__block__HTML-lang">CSS</div>
+                                        <div class="item-block__progres__block__HTML-proc">50%</div>
+                                    </div>
+                                    <div class="item-block__progres__block__HTML__line">
+                                        <div class="item-block__progres__block__HTML__subline Css"></div>
+                                    </div>
+                                </div>
+                                <div class="item-block__progres__block__HTML">
+                                    <div class="item-block__progres__block__HTML__flex">
+                                        <div class="item-block__progres__block__HTML-lang">JS</div>
+                                        <div class="item-block__progres__block__HTML-proc">10%</div>
+                                    </div>
+                                    <div class="item-block__progres__block__HTML__line">
+                                        <div class="item-block__progres__block__HTML__subline Figma"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="item-block__progres__block" data-aos="fade-left">
+                            <div class="item-block__progres__block-flex">
+                                <div class="item-block__progres__block__name">
+                                    <div class="item-block__progres__block__name-title">Designer</div>
+                                    <div class="item-block__progres__block__name-subtitle">More than 1 mountрs</div>
+                                </div>
+                                <div class="item-block__progres__block__HTML">
+                                    <div class="item-block__progres__block__HTML__flex">
+                                        <div class="item-block__progres__block__HTML-lang">Figma</div>
+                                        <div class="item-block__progres__block__HTML-proc">10%</div>
+                                    </div>
+                                    <div class="item-block__progres__block__HTML__line">
+                                        <div class="item-block__progres__block__HTML__subline Figma"></div>
+                                    </div>
+                                </div>
+                                <div class="item-block__progres__block__HTML">
+                                    <div class="item-block__progres__block__HTML__flex">
+                                        <div class="item-block__progres__block__HTML-lang">Sketch</div>
+                                        <div class="item-block__progres__block__HTML-proc">0%</div>
+                                    </div>
+                                    <div class="item-block__progres__block__HTML__line">
+                                        <div class="item-block__progres__block__HTML__subline Sketch"></div>
+                                    </div>
+                                </div>
+                                <div class="item-block__progres__block__HTML">
+                                    <div class="item-block__progres__block__HTML__flex">
+                                        <div class="item-block__progres__block__HTML-lang">PhotoShop</div>
+                                        <div class="item-block__progres__block__HTML-proc">0%</div>
+                                    </div>
+                                    <div  id="s3"class="item-block__progres__block__HTML__line">
+                                        <div class="item-block__progres__block__HTML__subline Sketch"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="main__experiense main__experiense2 main__experiens3">
+        <div  class="experiense__block">
+            <div class="experiense__flex">
+                <div class="experiense__item-block__text">
+                    <div class="item-block__text-title">What I Offer</div>
+                    <div class="item-block__text-subtitle">My Services</div>
+                </div>
+                <div class="experiense__item-block__progres">
+                    <div class="experiense__item-block__progres-flex">
+                        <button class="item-block__progres__block item-block__progres__block2
+                        item-block__progres__block2 " data-aos="fade-right">
+                            <div class="item-block__progres__block-flex">
+                                <div class="item-block__progres__block-flex2">
+                                    <div class="flex__text__progres">
+                                        <div class="flex__title__progres">
+                                            <div class="item-block__progres__block__svg">
+                                                <div class="item-block__progres__block__svg__line1"></div>
+                                                <div class="item-block__progres__block__svg__line2"></div>
+                                            </div>
+                                            <div class="item-block__progres__block__title2">Creation</div>
+                                        </div>
+                                        <div class="item-block__progres__block__text2">You want to launch your website, you need a new design for your future site? Contact me will discuss your</div>
+                                    </div>
+                                    <a href="#s1" class="item-block__progres__block__button"  id="s4">
+                                        About Me
+                                    </a>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="item-block__progres__block
+                        item-block__progres__block2 " data-aos="fade-left">
+                            <div class="item-block__progres__block-flex">
+                                <div class="item-block__progres__block-flex2">
+                                    <div class="flex__text__progres">
+                                        <div class="flex__title__progres">
+                                            <div class="item-block__progres__block__svg">
+                                                <div class="item-block__progres__block__svg__line1"></div>
+                                                <div class="item-block__progres__block__svg__line2"></div>
+                                            </div>
+                                            <div class="item-block__progres__block__title2">Rebranding</div>
+                                        </div>
+                                        <div class="item-block__progres__block__text2">You need a new design, something more modern? Contact me and we will discuss your needs and desires. </div>
+                                    </div>
+                                    <a href="#s5" class="item-block__progres__block__button"  id="s4">
+                                        Contact Me
+                                    </a>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="main__experiense main__experiense2 main__experiense4">
+        <div  class="experiense__block">
+            <div class="experiense__flex">
+                <div class="experiense__item-block__text">
+                    <div class="item-block__text-title">Recent Works</div>
+                    <div class="item-block__text-subtitle">My Portfolio</div>
+                    <div class="experiense__item-block__text__buttons">
+                        <button class="experiense__item-block__text__button ALl">All</button>
+                        <button class="experiense__item-block__text__button DES">Desidn</button>
+                        <button class="experiense__item-block__text__button WEB">Web</button>
+                    </div>
+                </div>
+                <div class="experiense__item-block__progres">
+                    <div class="slider">
+                        <button class="item-block__progres__block
+                        item-block__progres__block2 slider__item">
+                            <div class="item-block__progres__block-flex">
+                                <div class="item-block__progres__block-flex2">
+                                    <div class="item-block__progres__block__title2">Work</div>
+                                    <div class="item-block__progres__block-work">
+                                        
+                                        <a class="item-block__progres__block-work__img"  data-bs-toggle="modal" href="#exampleModalToggles5" role="button">
+                                        </a>
+                                            <div class="item-block__progres__block-work__plus">
+                                                <div class="item-block__progres__block-work__line1">
+    
+                                                </div>
+                                                <div class="item-block__progres__block-work__line2"></div>
+                                            </div>
+
+                                    </div>
+                                    
+                                    <a href="https://miha7777.github.io/works1/#s" class="item-block__progres__block__button item-block__progres__block__button2" id="s5">
+                                        More
+                                    </a>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="item-block__progres__block
+                        item-block__progres__block2 slider__item">
+                            <div class="item-block__progres__block-flex">
+                                <div class="item-block__progres__block-flex2">
+                                    <div class="item-block__progres__block__title2">Work</div>
+                                    <div class="item-block__progres__block-work">
+                                        <div class="item-block__progres__block-work__plus">
+                                            <div class="item-block__progres__block-work__line1">
+
+                                            </div>
+                                            <div class="item-block__progres__block-work__line2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item-block__progres__block__button item-block__progres__block__button2" id="s5">
+                                        More
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="item-block__progres__block
+                        item-block__progres__block2 slider__item">
+                            <div class="item-block__progres__block-flex">
+                                <div class="item-block__progres__block-flex2">
+                                    <div class="item-block__progres__block__title2">Work</div>
+                                    <div class="item-block__progres__block-work">
+                                        <div class="item-block__progres__block-work__plus">
+                                            <div class="item-block__progres__block-work__line1">
+
+                                            </div>
+                                            <div class="item-block__progres__block-work__line2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item-block__progres__block__button item-block__progres__block__button2" id="s5">
+                                        More
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="item-block__progres__block
+                        item-block__progres__block2 slider__item">
+                            <div class="item-block__progres__block-flex">
+                                <div class="item-block__progres__block-flex2">
+                                    <div class="item-block__progres__block__title2">Work</div>
+                                    <div class="item-block__progres__block-work">
+                                        <div class="item-block__progres__block-work__plus">
+                                            <div class="item-block__progres__block-work__line1">
+
+                                            </div>
+                                            <div class="item-block__progres__block-work__line2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item-block__progres__block__button item-block__progres__block__button2" id="s5">
+                                        More
+                                    </div>
+                                </div>
+                            </div>
+                        </button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="main__contact">
+        <div class="contact__block">
+            <div class="contact__title">Contact Me</div>
+            <div class="experiense__item-block__text__icons">
+                <a class="btn" data-bs-toggle="modal" href="#exampleModalToggles1" role="button">
+                    <i class="fa-solid fa-brands fa-phone"></i>
+                </a>   
+                <a class="btn" data-bs-toggle="modal" href="#exampleModalToggles2" role="button">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>   
+                <a class="btn" data-bs-toggle="modal" href="#exampleModalToggles3" role="button">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>          
+                <div class="modal fade" id="exampleModalToggles1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-header__info">
+                              <div class="modal-header__title">My telefon</div>
+                            <div class="modal-header__text"> 0985865027</div>  
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="modal fade" id="exampleModalToggles2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-header__info">
+                              <div class="modal-header__title">My Instagram</div>
+                            <div class="modal-header__text"> @-M.I.C-</div>  
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="modal fade" id="exampleModalToggles3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-header__info">
+                              <div class="modal-header__title">My Facebook</div>
+                            <div class="modal-header__text">none</div>  
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </main>
+</div>
+<footer class="footer">
+        <div class="footer__text__felx">
+            <div class="footer__title">-M.I.C-</div>
+            <ul class= "header-menu__block2">
+                        <li>
+                            <a href="#s1" data-text="About"  class="header-menu__item2">About</a>
+                        </li>
+                        <li>
+                            <a href="#s2" data-text="Experience" class="header-menu__item2">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#s3" data-text="Services" class="header-menu__item2">Services</a>
+                        </li>
+                        <li>
+                            <a href="#s4" data-text="Portfolio" class="header-menu__item2">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#s5" data-text="Contact" class="header-menu__item2">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="experiense__item-block__text__icons">
+                    <a class="experiense__item-block__text__icon2 btn" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom3" aria-controls="offcanvasBottom">
+                        <i class="fa-solid fa fa-phone"></i>
+                    </a>   
+                    <a class="experiense__item-block__text__icon2 btn"
+                    class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom2" aria-controls="offcanvasBottom">
+                        <i class="fa-brands fa fa-instagram"></i>
+                    </a>   
+                    <a class="
+                    experiense__item-block__text__icon2 btn"
+                    class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom">
+                        <i class="fa-brands fa fa-facebook-f"></i>
+                    </a>   
+                    <a class="experiense__item-block__text__icon2 btn" href="#head">
+                        <div class="header-img__block-animate">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </a>
+                </div>
+
+<div class="offcanvas offcanvas2 offcanvas-bottom" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header2 offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+    </button>
+    <div class="modal-header__info">
+        <div class="modal-header__title">My Facebook</div>
+      <div class="modal-header__text">NONE</div>  
+      </div>
+  </div>
+</div>
+<div class="offcanvas offcanvas2 offcanvas-bottom" tabindex="-1" id="offcanvasBottom2" aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas-header2 offcanvas-header">
+      <button type="button" class="btn-close bbbbb text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+      </button>
+      <div class="modal-header__info">
+          <div class="modal-header__title">My Instagram</div>
+        <div class="modal-header__text">-M.I.C-</div>  
+        </div>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas2 offcanvas-bottom" tabindex="-1" id="offcanvasBottom3" aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas-header2 offcanvas-header">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+      </button>
+      <div class="modal-header__info">
+          <div class="modal-header__title">My telephon</div>
+        <div class="modal-header__text">0985865027</div>  
+        </div>
+    </div>
+  </div>
+            </div>
+        </div>
+</footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f16c647c97.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
